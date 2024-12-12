@@ -1,0 +1,13 @@
+html {
+    font-size: 10px;
+    font-family: "Markazi Text", sans-serif;
+    background-color: dimgray;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: darkgray;
+    padding: 0 20px 20px 20px;
+    border: 5px double black
+}
