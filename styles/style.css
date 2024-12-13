@@ -15,11 +15,11 @@ body {
 
 .nav-bar ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 -20px;
     padding: 0;
     background-color: rgb(110, 109, 109);
     overflow: hidden;
-    margin: 0 -20px;
+    font-size: 20px;
 }
 
 .nav-bar li {
@@ -28,6 +28,7 @@ body {
 
 .nav-bar a {
     display: block;
-    padding: 8px 8px;
+    padding: 8px 15px;
     color: white;
+    text-decoration: none;
 }
