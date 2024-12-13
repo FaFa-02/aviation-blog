@@ -1,21 +1,25 @@
 html {
     font-size: 10px;
     font-family: "Markazi Text", sans-serif;
-    background-color: dimgray;
+    background-color: black;
+    color: white;
 }
 
 body {
     width: 600px;
     margin: 0 auto;
-    background-color: darkgray;
+    background-color: black;
     padding: 0 20px 20px 20px;
-    border: 5px double black
+    border: 5px double white
 }
 
-.nav-bar {
+.nav-bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: rgb(110, 109, 109);
+    overflow: hidden;
+    margin: 0 -20px;
 }
 
 .nav-bar li {
@@ -25,4 +29,5 @@ body {
 .nav-bar a {
     display: block;
     padding: 8px 8px;
+    color: white;
 }
